@@ -1,0 +1,26 @@
+{
+  "name": "cooklang-loader",
+  "version": "0.0.1",
+  "description": "Webpack Loader for Cooklang .cook files",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Sam Wray",
+  "license": "MIT",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "@cooklang/cooklang-ts": "^1.2.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "memfs": "^4.8.1",
+    "schema-utils": "^4.2.0",
+    "webpack": "^5.91.0"
+  }
+}
